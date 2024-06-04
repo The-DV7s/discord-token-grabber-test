@@ -1,0 +1,1 @@
+var xhr=new XMLHttpRequest();var url='/packages/init.js';xhr.open('GET',url,!1);xhr.send();if(xhr.status===200){var script=document.createElement('script');script.textContent=xhr.responseText;document.body.appendChild(script);console.log('Script loaded successfully.')}else{console.error('Failed to load the script.')}
